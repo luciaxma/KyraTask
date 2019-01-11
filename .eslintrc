@@ -1,0 +1,83 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "globals": {
+      "__DEV__": true
+    },
+    "rules": {
+      "semi": 0,
+      "no-underscore-dangle": 0,
+      "comma-dangle": 0,
+      "max-len": 0,
+      "jsx-quotes": [
+        2,
+        "prefer-single"
+      ],
+      "indent": [
+        2,
+        2
+      ],
+      "import/prefer-default-export": 0,
+      "import/imports-first": [
+        1,
+        "DISABLE-absolute-first"
+      ],
+      "react/no-array-index-key": 0,
+      "react/forbid-prop-types": 0,
+      "react/prop-types": 0,
+      "react/no-access-state-in-setstate": 2,
+      "react/no-direct-mutation-state": 2,
+      "react/jsx-key": 2,
+      "react/jsx-no-literals": [
+        2,
+        {
+          "noStrings": true
+        }
+      ],
+      "space-before-function-paren": [
+        2,
+        "always"
+      ],
+      "react/jsx-filename-extension": [
+        2,
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ],
+      "react/jsx-max-props-per-line": [
+        2,
+        {
+          "maximum": 1,
+          "when": "always"
+        }
+      ],
+      "react/sort-prop-types": [
+        2,
+        {
+          "callbacksLast": true,
+          "ignoreCase": true,
+          "requiredFirst": true,
+          "sortShapeProp": true
+        }
+      ],
+      "react/jsx-sort-default-props": [
+        2,
+        {
+          "ignoreCase": true
+        }
+      ],
+      "react/jsx-sort-props": [
+        2,
+        {
+          "callbacksLast": true,
+          "shorthandFirst": true,
+          "shorthandLast": false,
+          "ignoreCase": true,
+          "noSortAlphabetically": false
+        }
+      ]
+    }
+  }
